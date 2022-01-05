@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/3000x1500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1, .banner p{
+  background-color: black;
+  display: inline-block;
+}
+
+.container {
+  max-width: 700px;
+  margin: 50px auto
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media (min-width: 500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+@media (min-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (min-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
